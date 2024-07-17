@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.nangua.database_shardingsphere.mapper")
+@MapperScan("com.nangua.database_shardingsphere.dao")
 public class DatabaseShardingSphereApplication {
 
     public static void main(String[] args) {
